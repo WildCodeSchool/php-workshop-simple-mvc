@@ -4,7 +4,7 @@
 
 #### Introduction
 
-Le Simple MVC est un framework "maison" relativement facile à prendre en main qui utilise une architecture "Modèle - Vue - Contrôleur". Ce framework est fourni avec un exemple qui illustre son fonctionnement : tous les fichiers/dossiers dont le nom contient le mot "Item", dans le dossier ```src```. Tu as déjà étudié ces principes dans de précédents ateliers, mais il est temps de pratiquer avec un cas concret. Ici, en t'inpirant des exemples du Simple MVC, tu vas créer une route afin de lister tous tes animaux de compagnie.
+Le Simple MVC est un framework "maison" relativement facile à prendre en main qui utilise une architecture "Modèle - Vue - Contrôleur". Ce framework est fourni avec un exemple qui illustre son fonctionnement : tous les fichiers/dossiers dont le nom contient le mot "Item", dans le dossier src. Tu as déjà étudié ces principes dans de précédents ateliers, mais il est temps de pratiquer avec un cas concret. Ici, en t'inpirant des exemples du Simple MVC, tu vas créer une route afin de lister tous tes animaux de compagnie.
 
 #### Avant de commencer : les prérequis
 
