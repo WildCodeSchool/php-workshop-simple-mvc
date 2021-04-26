@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/php-workshop-simple-mvc/static/js/main.a23fa1be.chunk.js",
+    "main.js.map": "/php-workshop-simple-mvc/static/js/main.a23fa1be.chunk.js.map",
+    "runtime~main.js": "/php-workshop-simple-mvc/static/js/runtime~main.c48635d7.js",
+    "runtime~main.js.map": "/php-workshop-simple-mvc/static/js/runtime~main.c48635d7.js.map",
+    "static/js/2.cfea14c7.chunk.js": "/php-workshop-simple-mvc/static/js/2.cfea14c7.chunk.js",
+    "static/js/2.cfea14c7.chunk.js.map": "/php-workshop-simple-mvc/static/js/2.cfea14c7.chunk.js.map",
+    "index.html": "/php-workshop-simple-mvc/index.html",
+    "precache-manifest.ace09e74b554ecc97812a6ac0cf4ae05.js": "/php-workshop-simple-mvc/precache-manifest.ace09e74b554ecc97812a6ac0cf4ae05.js",
+    "service-worker.js": "/php-workshop-simple-mvc/service-worker.js"
+  }
+}
