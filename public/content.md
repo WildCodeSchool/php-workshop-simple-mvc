@@ -46,7 +46,7 @@ C'est bien beau un contrôleur comme ça, mais on aimerait quand même qu'il nou
 
 Dans le dossier `View`, créé donc un dossier `Pet`, dans lequel tu vas ajouter un fichier *index.html.twig*.
 
-Ce fichier est une vue Twig, qui va hériter de *layout.html.twig*. La première chose à faire est donc de rajouter un `extends` au tout début de ton fichier *ìndex.html.twig*. Ajoute ensuite un `{% block content %}` dans lequel tu peux ajouter uniquement un simple `h1` contenant le titre de ton choix (comme *"My Pets"*). Nous verrons plus tard pour ajouter d'autres choses à cette vue. N'hésite pas à regarder le fichier d'exemple *Item/index.html.twig* pour t'aider.
+Ce fichier est une vue Twig, qui va hériter de *layout.html.twig*. La première chose à faire est donc de rajouter un `extends` au tout début de ton fichier *index.html.twig*. Ajoute ensuite un `block content` dans lequel tu peux ajouter uniquement un simple `h1` contenant le titre de ton choix (comme *"My Pets"*). Nous verrons plus tard pour ajouter d'autres choses à cette vue. N'hésite pas à regarder le fichier d'exemple *Item/index.html.twig* pour t'aider.
 
 Maintenant que ta vue est prête, il faut retourner dans ton contrôleur et dire à ta méthode **index** de compiler et retourner la vue Twig que tu as créée, à la place de *"bibi"*.
 
