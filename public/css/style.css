@@ -46,6 +46,7 @@ pre,
 
 .message-body {
     background: #ffd64f26;
+    margin-bottom: 8px;
 }
 
 .message-body + .message-body {
