@@ -2,11 +2,11 @@
 
 ## Simple comme noyer un bœuf avant d'avoir vendu le poisson
 
-#### Introduction
+#### 💡 Introduction
 
 Le Simple-MVC est un framework "maison", développé par tes formateurs pour faciliter l'apprentissage de l'architecture MVC "Modèle - Vue - Contrôleur". Il est relativement facile à prendre en main et est fourni avec des fichiers d'exemple qui illustrent son fonctionnement : ce sont tous les fichiers/dossiers dont le nom contient le mot "Item", dans le dossier *src/*. Tu as déjà étudié ces principes dans de précédents ateliers, mais il est temps de pratiquer avec un cas concret. Ici, en t'inpirant des exemples du Simple-MVC, tu vas créer une route afin de lister tous tes animaux de compagnie.
 
-#### Avant de commencer : les prérequis
+#### 🛠️ Avant de commencer : les prérequis
 
 Clone [le repo Github du Simple-MVC](https://github.com/WildCodeSchool/simple-mvc) sur ta machine.
 
@@ -20,7 +20,7 @@ Ajoute quelques valeurs dans cette table.
 
 > Note : n'oublie pas de configurer la connexion à ton serveur MySQL. Pour cela, il faut créer un fichier *db.php* à partir du fichier *db.php.dist* ❗ Le fichier *db.php* contenant des informations sensibles, il ne sera pas versionné. Le fichier *db.php.dist* sert de modèle et ne doit pas être effacé.
 
-#### Première étape : le contrôleur
+#### 1️⃣ Première étape : le contrôleur
 
 Dans un premier temps, tu veux lister tes *pets* sur une page.
 
@@ -40,7 +40,7 @@ Lance ton serveur PHP, ouvre ton navigateur, et va à l'adresse `localhost:8000/
 
 > Note : tu peux prendre exemple sur le **ItemController**.
 
-#### Deuxième étape : la vue
+#### 2️⃣ Deuxième étape : la vue
 
 C'est bien beau un contrôleur comme ça, mais on aimerait quand même qu'il nous renvoie une vue, et pas juste "bibi"... 🤔
 
@@ -61,7 +61,7 @@ Twig te renvoie alors une chaîne de caractères contenant du HTML. N'oublie pas
 
 > Réactualise, ta page devrait correctement s'afficher maintenant!
 
-#### Troisième étape : le modèle
+#### 3️⃣ Troisième étape : le modèle
 
 Ok! On a bien un contrôleur qui renvoie une vue, on est pas mal! Mais maintenant, ça pourrait être cool d'aller chercher tous tes animaux de compagnie dans ta base de données, et d'en afficher les informations dans ta vue, non? Et bien faisons cela! 😎
 
@@ -73,7 +73,7 @@ Là encore, tu te rends compte qu'il existe déjà un **AbstractManager** qui po
 
 > Note : là encore, n'hésite pas à regarder l'exemple de l'`ItemManager` pour mieux comprendre l'articulation entre tous ces fichiers.
 
-#### Quatrième étape : envoyer les données dans la vue
+#### 4️⃣ Quatrième étape : envoyer les données dans la vue
 
 On approche de la fin! Il ne nous reste plus qu'à envoyer nos données dans notre vue.
 
@@ -99,6 +99,6 @@ Tu peux donc faire un simple `{{ dump(pets) }}` dans twig pour vérifier que tu 
 
 > Note : tu peux utiliser [placekitten](https://placekitten.com/) et [placepuppy](https://place-puppy.com/) pour afficher des photos de chatons ou de chiots en fonction de l'espèce de tes animaux de compagnie. 😉
 
-#### Conclusion
+#### 🏁 Conclusion
 
 Et voilà, maintenant qu'on a vu le fonctionnement de base du Simple-MVC, à toi de jouer pour nous créer une super application pour ton projet 2! 😉
